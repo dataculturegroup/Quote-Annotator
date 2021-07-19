@@ -26,7 +26,7 @@ Copy the `.env.template` to `.env` and then edit it.
 Use
 ---
 
-Open up one terminal window and start the workers waiting: `celery worker -A quoteworker -l info`. Watch the log to see
+Open up one terminal window and start the workers waiting: `celery -A quoteworker worker -l info`. Watch the log to see
 if processing stories.
 
 In another window start filling up the queue with `python queue-stories-from-db.py `.
