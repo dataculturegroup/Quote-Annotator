@@ -7,7 +7,7 @@ property.
 
 Requirements:
 * Python3 - we use [pyenv](https://github.com/pyenv/pyenv) to manage different versions
-p* Stanford CoreNLP Server - This requires you to be running a copy of the [Stanford CoreNLP Server](https://stanfordnlp.github.io/CoreNLP/corenlp-server.html),
+* Stanford CoreNLP Server - This requires you to be running a copy of the [Stanford CoreNLP Server](https://stanfordnlp.github.io/CoreNLP/corenlp-server.html),
 ([here is my fork](https://github.com/rahulbot/stanford-corenlp-docker) of the Docker install with some tweaks for the 
 annotators we use for quote extraction).
 * Redis - we use this via celery as a queue for parallel processing
