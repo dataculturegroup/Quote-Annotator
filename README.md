@@ -29,7 +29,7 @@ Use
 Open up one terminal window and start the workers waiting: `celery -A quoteworker worker -l info`. Watch the log to see
 if processing stories.
 
-In another window start filling up the queue with `python queue-stories-from-db.py `.
+In another window start filling up the queue with `python queue-stories-from-db.py`.
 
 Notes
 -----
